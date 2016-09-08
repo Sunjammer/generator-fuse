@@ -1,0 +1,10 @@
+# Build directories
+build
+.uno
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm

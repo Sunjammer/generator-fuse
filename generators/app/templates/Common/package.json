@@ -1,0 +1,16 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "preview": "gulp build && sh preview.sh DotNet",
+    "preview:android": "gulp build && gulp & preview.sh android",
+    "preview:iOS": "gulp build && gulp & sh preview.sh iOS",
+    "build:android": "gulp build && fuse build -t=Android -r",
+    "build:iOS": "gulp build && fuse build -t=iOS -r"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
